@@ -61,11 +61,13 @@ public:
 
 int main() {
 	Lingkaran Lingkaran;
+	cout << "Lingkaran dibuat: " << endl;
 	Lingkaran.input();
 	cout << "Luas Lingkaran: " << Lingkaran.Luas() << endl;
 	cout << "Keliling Lingkaran: " << Lingkaran.Keliling() << endl;
 
 	Bujursangkar Bujursangkar;
+	cout << "Bujursangkar dibuat: " << endl;
 	Bujursangkar.input();
 	cout << "Luas Bujursangkar: " << Bujursangkar.Luas() << endl;
 	cout << "Keliling Bujursangkar: " << Bujursangkar.Keliling() << endl;
